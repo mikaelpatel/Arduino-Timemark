@@ -35,7 +35,7 @@ void setup()
 {
   Serial.begin(9600);
   while (!Serial);
-  Serial.println(F("MultiBlink: started"));
+  Serial.println(F("MultiBlinkArray: started"));
 
   trace.start();
   for (unsigned int i = 0; i < membersof(led); i++) {
